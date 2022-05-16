@@ -1,0 +1,21 @@
+from djitellopy import tello
+from time import sleep
+
+me = tello.Tello()
+me.connect()
+
+print(me.get_battery())
+
+me.takeoff()
+
+me.move_up(200)
+sleep(.5)
+me.move_forward(480)
+sleep(.5)
+me.move_left(315)
+sleep(.5)
+me.move_backward(480)
+sleep(.5)
+me.move_right(315)
+
+me.land()
