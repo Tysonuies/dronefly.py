@@ -14,14 +14,14 @@ sleep(.5)
 me.move_forward(480)
 sleep(.5)
 
-# Flies left 315cm and then back 480cm 
-me.move_left(315)
+# Flies left 340cm and then back 480cm 
+me.move_left(340)
 sleep(.5)
 me.move_back(480)
 sleep(.5)
 
-# Flies right 315cm and then down 200cm
-me.move_right(315)
+# Flies right 325cm and then down 200cm
+me.move_right(325)
 sleep(.5)
 me.move_down(200)
 
