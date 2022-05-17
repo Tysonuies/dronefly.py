@@ -8,7 +8,7 @@ print(me.get_battery())
 
 me.takeoff()
 
-me.move_up(200)
+me.move_up(150)
 sleep(.5)
 me.move_forward(480)
 sleep(.5)
