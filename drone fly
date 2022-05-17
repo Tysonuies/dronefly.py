@@ -8,15 +8,19 @@ print(me.get_battery())
 
 me.takeoff()
 
-# Flies up 170cm and then forward 480cm and then left 315cm and then back 480cm and then right 315cm and then down 200cm
+# Flies up 170cm and then forward 480cm
 me.move_up(170)
 sleep(.5)
 me.move_forward(480)
 sleep(.5)
+
+# Flies left 315cm and then back 480cm 
 me.move_left(315)
 sleep(.5)
 me.move_back(480)
 sleep(.5)
+
+# Flies right 315cm and then down 200cm
 me.move_right(315)
 sleep(.5)
 me.move_down(200)
